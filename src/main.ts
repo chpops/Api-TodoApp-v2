@@ -5,9 +5,9 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, {cors: true});
   const options = new DocumentBuilder()
-    .setTitle('Angular ToDo Documentation ')
-    .setDescription('Backend API for Angular Application')
-    .setContact('the developer ', '' ,'nikichtube@gmail.com')
+    .setTitle('Small Angular ToDo API Documentation')
+    .setDescription('This Is The Backend API For Angular ToDo Application')
+    .setContact('Developer ', '' ,'nikichtube@gmail.com')
     .setVersion('1.0.0')
     .addTag('todo')
     .build();
